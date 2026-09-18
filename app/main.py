@@ -60,7 +60,7 @@ def predict(request: PredictionRequest):
     )
 
 @app.post("/batch")
-def batch(request:BatchPredictRequest):
+def batch(request:BatchPredictionRequest):
     if model is None:
         raise HTTPException(
             status_code=503, 
