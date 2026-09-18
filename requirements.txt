@@ -4,3 +4,5 @@ uvicorn
 gunicorn
 pydantic
 joblib
+scikit-learn
+pytest
